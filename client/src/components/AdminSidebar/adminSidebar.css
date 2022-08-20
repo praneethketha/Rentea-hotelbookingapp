@@ -1,0 +1,47 @@
+.admin-sidebar {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 100vh;
+}
+
+.rentea-logo {
+  color: #ff6d1b !important;
+}
+
+.admin-sidebar-link:hover {
+  background-color: #ff6d1b;
+  border-radius: 5px;
+}
+
+.admin-sidebar-link.active {
+  background-color: #ff6d1b;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.admin-sidebar-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  height: 50px;
+}
+
+.admin-sidebar-link:hover {
+  color: #fff;
+}
+
+.logout-button {
+  font-size: 16px;
+
+  margin: 0 auto;
+  margin-top: 10em;
+}
+
+.cross-icon {
+  font-size: 25px;
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .cross-icon {
+    display: inline;
+  }
+}

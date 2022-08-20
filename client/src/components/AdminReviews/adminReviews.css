@@ -1,0 +1,56 @@
+.mainreviews {
+  margin-top: 2rem;
+}
+.totalreviews {
+  font-size: 1rem;
+}
+.starreviews {
+  font-size: 20px;
+}
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 5px;
+}
+
+.heading svg{
+  cursor: pointer;
+}
+
+.mainreviewsinner {
+  margin-bottom: 1rem;
+}
+
+.mainreviewsinner h6 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.reviewCard {
+  height: 320px !important;
+  box-shadow: 0 4px 6px 0 rgb(0 0 0 / 10%), 0 6px 10px 0 rgb(0 0 0 / 10%);
+  margin: 0 !important;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.reviewCard .reviewCardImg{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewCard .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.reviewCard .card-text {
+  font-size: 1rem;
+}

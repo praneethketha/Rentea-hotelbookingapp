@@ -1,0 +1,17 @@
+.admin-header-icons {
+  width: 30px;
+  height: 25px;
+  color: #ff6d1b;
+  cursor: pointer;
+}
+
+.admin-header-profile {
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .admin-header-right {
+    justify-content: flex-end;
+    margin-right: 1em;
+  }
+}

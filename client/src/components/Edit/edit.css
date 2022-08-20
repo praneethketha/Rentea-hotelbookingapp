@@ -1,0 +1,62 @@
+.edit {
+}
+.profile-img {
+  border-radius: 50%;
+}
+
+.form {
+  margin: auto;
+  width: 80% !important;
+  max-width: 300px !important;
+}
+
+.edit-button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  height: 5vh;
+  width: 7vw;
+
+  border-radius: 5px;
+}
+
+.edit-button:hover {
+  background-color: #ff6d1b;
+}
+
+.edit-img {
+  width: 120px !important;
+  aspect-ratio: 1/1;
+}
+
+.editProfile{
+  position: relative;
+}
+
+.editIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #00a7cd;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.editIcon svg {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+}
+
+.editIcon input {
+  display: none;
+  width: 0;
+  height: 0;
+}

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito&family=Roboto&display=swap");
+.hero-unit {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url("./../../assets/bg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  font-family: Nunito;
+}
+
+.hero-img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.hero-titles {
+  width: 85vw;
+  margin: auto;
+}
+
+.hero-titles h1 {
+  font-family: Montserrat;
+  width: 40%;
+}
+
+.hero-titles button {
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: 600;
+  transition: all 350ms ease-in-out;
+  width: max-content !important;
+}
+
+.hero-titles button:hover {
+  color: #000;
+  background-color: #fff;
+}
+@media only screen and (max-width: 820px) {
+  .hero-img {
+    height: 40vh;
+  }
+
+  .hero-titles {
+    height: 40vh;
+  }
+
+  .hero-titles h1 {
+    width: 100%;
+  }
+}

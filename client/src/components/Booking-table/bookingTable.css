@@ -1,0 +1,127 @@
+.booking-table-container {
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 95vw;
+  max-width: 1200px;
+  height: 80vh;
+  background-color: #fff;
+}
+
+.container-table {
+  position: relative;
+}
+
+.text-none{
+  text-transform: none !important;
+}
+
+.hotel-img {
+  width: 100px;
+  aspect-ratio: 1/1;
+}
+
+.addIcon {
+  bottom: 20px !important;
+  right: 20px !important;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.addAdmin label {
+  font-size: 0.8rem;
+}
+
+.editHotel{
+  color: #00a7cd;
+}
+
+.delHotel{
+  color: #eb1d36;
+}
+
+.addImage {
+  width: 100px;
+  height: 100px;
+  background: #00a7cd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.addImages{
+  width: inherit;
+  overflow-x: scroll;
+  padding: 0 100px;
+}
+
+.addImages::-webkit-scrollbar{
+  height: 0;
+}
+
+.addImage svg {
+  display: block;
+  width: 100px;
+  height: 100px;
+  color: #fff;
+}
+.removeImg{
+  width: 22px;
+  height: 22px;
+  background: #000;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 600 !important;
+}
+
+.addImage input {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.pagination-bar {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+}
+
+.table-container::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+.booking-table thead {
+  background: #ffff !important;
+  position: sticky;
+  top: 0;
+}
+
+.booking-table {
+  border: 1px solid black;
+  border-collapse: separate !important;
+}
+
+@media only screen and (max-width: 960px) {
+  .table-container {
+    height: 56vh;
+    overflow: auto;
+    font-size: 0.8rem;
+  }
+
+  .booking-table-container {
+    width: 95vw;
+    margin: 0 auto;
+  }
+}

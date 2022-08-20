@@ -1,0 +1,54 @@
+.hotelsPage {
+  margin-top: 6rem;
+  min-height: calc(100vh - 9.5rem);
+}
+.searchfield {
+  width: 100% !important;
+  border-radius: 3rem !important;
+  height: 40px !important;
+}
+
+.Row1{
+  margin: 0 !important;
+}
+
+.heading {
+  margin-bottom: 10px;
+  color: #ff6d1b;
+  font-weight: bold;
+}
+.btn1 {
+  margin-left: 1rem;
+  font-family: "Montserrat", sans-serif;
+  width: 100px !important;
+}
+.form1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.column {
+  margin-left: 10px;
+}
+.Row2 {
+  margin-top: 40px;
+}
+.formgrup {
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    width: 100px;
+    display: inline-block;
+  }
+  .searchfield {
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+  }
+  .btn1 {
+    margin-right: 1em;
+  }
+}

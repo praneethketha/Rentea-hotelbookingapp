@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
+
+.error_page {
+  background: #fff;
+  color: #000;
+  width: 100vw;
+  min-height: calc(100vh - 3rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.error_img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-image: url("./../../assets/error_gif.gif");
+  height: 500px;
+  font-family: "Nunito";
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.error_page h1 {
+  font-family: "Rubik Wet Paint", cursive;
+  font-size: 6rem;
+  font-weight: 500;
+}
+
+.error_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.error_info p:first-child {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.error_info p:last-child {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.error_info a {
+  width: max-content;
+}

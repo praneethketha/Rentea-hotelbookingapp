@@ -1,0 +1,83 @@
+.Hotels {
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.card_img{
+  aspect-ratio: 2/1;
+}
+
+.Hotels::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient( rgb(0,0,0,0.6), rgba(0,0,0,0.3));
+}
+
+.hoteltitles {
+  position: absolute;
+  color: #ffffff;
+  margin-top: -50px;
+  margin-left: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ratecost {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.cardBody {
+  font-family: "Montserrat", sans-serif;
+}
+.rate {
+  background-color: #00ab44;
+  color: #ffffff;
+  padding: 3px 5px;
+  font-size: 1rem;
+}
+.rate2 {
+  color: gray;
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+.ratings {
+  margin-top: 0.5rem;
+}
+
+.cost .number {
+  color: #ff6d1b;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.number svg{
+  font-size: 25px;
+}
+.cost p span {
+  color: #000000;
+  font-weight: bold;
+}
+.cost p {
+  color: gray;
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.text {
+  font-size: 0.9rem;
+  height: 30px;
+}

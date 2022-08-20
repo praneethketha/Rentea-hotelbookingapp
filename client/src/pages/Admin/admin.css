@@ -1,0 +1,9 @@
+.admin {
+  font-family: "Nunito", sans-serif;
+}
+.admin-content {
+  background-color: #f7f6f2;
+
+  width: 100vw;
+  height: 100vh;
+}
